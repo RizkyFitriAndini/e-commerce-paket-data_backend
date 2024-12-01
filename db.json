@@ -2,187 +2,310 @@
   "categories": [
     {
       "id": 1,
-      "nama": "Makanan"
+      "nama": "Harian"
     },
     {
       "id": 2,
-      "nama": "Minuman"
+      "nama": "Mingguan"
     },
     {
       "id": 3,
-      "nama": "Cemilan"
+      "nama": "Bulanan"
     }
   ],
   "products": [
     {
       "id": 1,
-      "kode": "K-01",
-      "nama": "Sate Ayam",
-      "harga": 16000,
+      "kode": "D-03",
+      "nama": "Paket Data Harian 1GB",
+      "harga": 50000,
       "is_ready": true,
-      "gambar": "sate-ayam.jpg",
-      "category" : {
+      "category": {
         "id": 1,
-        "nama": "Makanan"
-      }
+        "nama": "Harian"
+      },
+      "features": [
+        "Internet 30Mbps",
+        "Kuota Keluarga 5GB",
+        "Nelpon sesama 10 Menit"
+      ]
     },
     {
       "id": 2,
-      "kode": "K-02",
-      "nama": "Nasi Goreng Telur",
-      "harga": 14000,
+      "kode": "D-04",
+      "nama": "Paket Data Harian 2GB",
+      "harga": 80000,
       "is_ready": true,
-      "gambar": "nasi-goreng-telor.jpg",
-      "category" : {
+      "category": {
         "id": 1,
-        "nama": "Makanan"
-      }
+        "nama": "Harian"
+      },
+      "features": [
+        "Internet 60Mbps",
+        "Kuota Keluarga 10GB",
+        "SMS sesama operator 50 SMS"
+      ]
     },
     {
       "id": 3,
-      "kode": "K-03",
-      "nama": "Nasi Rames",
-      "harga": 12000,
+      "kode": "D-05",
+      "nama": "Paket Data Mingguan 5GB",
+      "harga": 70000,
       "is_ready": true,
-      "gambar": "nasi-rames.jpg",
-      "category" : {
-        "id": 1,
-        "nama": "Makanan"
-      }
+      "category": {
+        "id": 3,
+        "nama": "Mingguan"
+      },
+      "features": [
+        "Internet 20Mbps",
+        "Kuota Keluarga 3GB",
+        "Nelpon sesama 20 Menit"
+      ]
     },
     {
       "id": 4,
-      "kode": "K-04",
-      "nama": "Lontong Opor Ayam",
-      "harga": 18000,
+      "kode": "D-06",
+      "nama": "Paket Data Mingguan 10GB",
+      "harga": 120000,
       "is_ready": true,
-      "gambar": "lontong-opor-ayam.jpg",
-      "category" : {
-        "id": 1,
-        "nama": "Makanan"
-      }
+      "category": {
+        "id": 4,
+        "nama": "Mingguan"
+      },
+      "features": [
+        "Internet 75Mbps",
+        "Kuota Keluarga 20GB",
+        "Nelpon sesama 40 Menit",
+        "SMS sesama operator 70 SMS"
+      ]
     },
     {
       "id": 5,
-      "kode": "K-05",
-      "nama": "Mie Goreng",
-      "harga": 13000,
+      "kode": "D-01",
+      "nama": "Paket Data Bulanan 10GB",
+      "harga": 100000,
       "is_ready": true,
-      "gambar": "mie-goreng.jpg",
-      "category" : {
+      "category": {
         "id": 1,
-        "nama": "Makanan"
-      }
+        "nama": "Bulanan"
+      },
+      "features": [
+        "Internet 50Mbps",
+        "Kuota Keluarga 15GB",
+        "Nelpon sesama 30 Menit"
+      ]
     },
     {
       "id": 6,
-      "kode": "K-06",
-      "nama": "Bakso",
-      "harga": 10000,
+      "kode": "D-02",
+      "nama": "Paket Data Bulanan 20GB",
+      "harga": 150000,
       "is_ready": true,
-      "gambar": "bakso.jpg",
-      "category" : {
+      "category": {
         "id": 1,
-        "nama": "Makanan"
-      }
-    },
-    {
-      "id": 7,
-      "kode": "K-07",
-      "nama": "Mie Ayam Bakso",
-      "harga": 14000,
-      "is_ready": true,
-      "gambar": "mie-ayam-bakso.jpg",
-      "category" : {
-        "id": 1,
-        "nama": "Makanan"
-      }
-    },
-    {
-      "id": 8,
-      "kode": "K-08",
-      "nama": "Pangsit 6 pcs",
-      "harga": 5000,
-      "is_ready": true,
-      "gambar": "pangsit.jpg",
-      "category" :  {
-        "id": 3,
-        "nama": "Cemilan"
-      }
-    },
-    {
-      "id": 9,
-      "kode": "K-09",
-      "nama": "Kentang Goreng",
-      "harga": 5000,
-      "is_ready": true,
-      "gambar": "kentang-goreng.jpg",
-      "category" :  {
-        "id": 3,
-        "nama": "Cemilan"
-      }
-    },
-    {
-      "id": 10,
-      "kode": "K-010",
-      "nama": "Cheese Burger",
-      "harga": 15000,
-      "is_ready": true,
-      "gambar": "cheese-burger.jpg",
-      "category" :  {
-        "id": 3,
-        "nama": "Cemilan"
-      }
-    },
-    {
-      "id": 11,
-      "kode": "K-011",
-      "nama": "Coffe Late",
-      "harga": 15000,
-      "is_ready": true,
-      "gambar": "coffe-late.jpg",
-      "category" : {
-        "id": 2,
-        "nama": "Minuman"
-      }
-    },
-    {
-      "id": 12,
-      "kode": "K-012",
-      "nama": "Es Jeruk",
-      "harga": 7000,
-      "is_ready": true,
-      "gambar": "es-jeruk.jpg",
-      "category" : {
-        "id": 2,
-        "nama": "Minuman"
-      }
-    },
-    {
-      "id": 13,
-      "kode": "K-013",
-      "nama": "Es Teh",
-      "harga": 5000,
-      "is_ready": true,
-      "gambar": "es-teh.jpg",
-      "category" : {
-        "id": 2,
-        "nama": "Minuman"
-      }
-    },
-    {
-      "id": 14,
-      "kode": "K-014",
-      "nama": "Teh Hangat",
-      "harga": 3000,
-      "is_ready": true,
-      "gambar": "teh-hangat.jpg",
-      "category" : {
-        "id": 2,
-        "nama": "Minuman"
-      }
+        "nama": "Bulanan"
+      },
+      "features": [
+        "Internet 100Mbps",
+        "Kuota Keluarga 25GB",
+        "Nelpon sesama 50 Menit",
+        "SMS sesama operator 100 SMS"
+      ]
     }
   ],
-  "keranjangs": [],
-  "pesanans": []
+  "charts": [],
+  "checkouts": [
+    {
+      "id": "bc71",
+      "total_bayar": 50000,
+      "lists": [
+        {
+          "id": "0bcc",
+          "jumlah": 1,
+          "total_harga": 50000,
+          "product": {
+            "id": 1,
+            "kode": "D-03",
+            "nama": "Paket Data Harian 1GB",
+            "harga": 50000,
+            "is_ready": true,
+            "category": {
+              "id": 1,
+              "nama": "Harian"
+            },
+            "features": [
+              "Internet 30Mbps",
+              "Kuota Keluarga 5GB",
+              "Nelpon sesama 10 Menit"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "3378",
+      "total_bayar": 50000,
+      "lists": [
+        {
+          "id": "0bcc",
+          "jumlah": 1,
+          "total_harga": 50000,
+          "product": {
+            "id": 1,
+            "kode": "D-03",
+            "nama": "Paket Data Harian 1GB",
+            "harga": 50000,
+            "is_ready": true,
+            "category": {
+              "id": 1,
+              "nama": "Harian"
+            },
+            "features": [
+              "Internet 30Mbps",
+              "Kuota Keluarga 5GB",
+              "Nelpon sesama 10 Menit"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "41c1",
+      "total_bayar": 50000,
+      "lists": [
+        {
+          "id": "d99d",
+          "jumlah": 1,
+          "total_harga": 50000,
+          "product": {
+            "id": 1,
+            "kode": "D-03",
+            "nama": "Paket Data Harian 1GB",
+            "harga": 50000,
+            "is_ready": true,
+            "category": {
+              "id": 1,
+              "nama": "Harian"
+            },
+            "features": [
+              "Internet 30Mbps",
+              "Kuota Keluarga 5GB",
+              "Nelpon sesama 10 Menit"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "4f93",
+      "total_bayar": 50000,
+      "lists": [
+        {
+          "id": "33e5",
+          "jumlah": 1,
+          "total_harga": 50000,
+          "product": {
+            "id": 1,
+            "kode": "D-03",
+            "nama": "Paket Data Harian 1GB",
+            "harga": 50000,
+            "is_ready": true,
+            "category": {
+              "id": 1,
+              "nama": "Harian"
+            },
+            "features": [
+              "Internet 30Mbps",
+              "Kuota Keluarga 5GB",
+              "Nelpon sesama 10 Menit"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "0117",
+      "total_bayar": 50000,
+      "lists": [
+        {
+          "id": "1d8f",
+          "jumlah": 1,
+          "total_harga": 50000,
+          "product": {
+            "id": 1,
+            "kode": "D-03",
+            "nama": "Paket Data Harian 1GB",
+            "harga": 50000,
+            "is_ready": true,
+            "category": {
+              "id": 1,
+              "nama": "Harian"
+            },
+            "features": [
+              "Internet 30Mbps",
+              "Kuota Keluarga 5GB",
+              "Nelpon sesama 10 Menit"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "0a74",
+      "total_bayar": 190000,
+      "lists": [
+        {
+          "id": "ff27",
+          "jumlah": 1,
+          "total_harga": 70000,
+          "product": {
+            "id": 3,
+            "kode": "D-05",
+            "nama": "Paket Data Mingguan 5GB",
+            "harga": 70000,
+            "is_ready": true,
+            "category": {
+              "id": 3,
+              "nama": "Mingguan"
+            },
+            "features": [
+              "Internet 20Mbps",
+              "Kuota Keluarga 3GB",
+              "Nelpon sesama 20 Menit"
+            ]
+          }
+        },
+        {
+          "id": "03eb",
+          "jumlah": 1,
+          "total_harga": 120000,
+          "product": {
+            "id": 4,
+            "kode": "D-06",
+            "nama": "Paket Data Mingguan 10GB",
+            "harga": 120000,
+            "is_ready": true,
+            "category": {
+              "id": 4,
+              "nama": "Mingguan"
+            },
+            "features": [
+              "Internet 75Mbps",
+              "Kuota Keluarga 20GB",
+              "Nelpon sesama 40 Menit",
+              "SMS sesama operator 70 SMS"
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "name": "John Doe",
+      "email": "john@example.com",
+      "password": "password123"
+    }
+  ]
 }
