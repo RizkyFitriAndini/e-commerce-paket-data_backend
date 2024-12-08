@@ -1,21 +1,21 @@
 {
   "categories": [
     {
-      "id": 1,
+      "id": "1",
       "nama": "Harian"
     },
     {
-      "id": 2,
+      "id": "2",
       "nama": "Mingguan"
     },
     {
-      "id": 3,
+      "id": "3",
       "nama": "Bulanan"
     }
   ],
   "products": [
     {
-      "id": 1,
+      "id": "1",
       "kode": "D-03",
       "nama": "Paket Data Harian 1GB",
       "harga": 50000,
@@ -31,7 +31,7 @@
       ]
     },
     {
-      "id": 2,
+      "id": "2",
       "kode": "D-04",
       "nama": "Paket Data Harian 2GB",
       "harga": 80000,
@@ -47,7 +47,7 @@
       ]
     },
     {
-      "id": 3,
+      "id": "3",
       "kode": "D-05",
       "nama": "Paket Data Mingguan 5GB",
       "harga": 70000,
@@ -63,7 +63,7 @@
       ]
     },
     {
-      "id": 4,
+      "id": "4",
       "kode": "D-06",
       "nama": "Paket Data Mingguan 10GB",
       "harga": 120000,
@@ -80,7 +80,7 @@
       ]
     },
     {
-      "id": 5,
+      "id": "5",
       "kode": "D-01",
       "nama": "Paket Data Bulanan 10GB",
       "harga": 100000,
@@ -96,7 +96,7 @@
       ]
     },
     {
-      "id": 6,
+      "id": "6",
       "kode": "D-02",
       "nama": "Paket Data Bulanan 20GB",
       "harga": 150000,
@@ -114,198 +114,19 @@
     }
   ],
   "charts": [],
-  "checkouts": [
-    {
-      "id": "bc71",
-      "total_bayar": 50000,
-      "lists": [
-        {
-          "id": "0bcc",
-          "jumlah": 1,
-          "total_harga": 50000,
-          "product": {
-            "id": 1,
-            "kode": "D-03",
-            "nama": "Paket Data Harian 1GB",
-            "harga": 50000,
-            "is_ready": true,
-            "category": {
-              "id": 1,
-              "nama": "Harian"
-            },
-            "features": [
-              "Internet 30Mbps",
-              "Kuota Keluarga 5GB",
-              "Nelpon sesama 10 Menit"
-            ]
-          }
-        }
-      ]
-    },
-    {
-      "id": "3378",
-      "total_bayar": 50000,
-      "lists": [
-        {
-          "id": "0bcc",
-          "jumlah": 1,
-          "total_harga": 50000,
-          "product": {
-            "id": 1,
-            "kode": "D-03",
-            "nama": "Paket Data Harian 1GB",
-            "harga": 50000,
-            "is_ready": true,
-            "category": {
-              "id": 1,
-              "nama": "Harian"
-            },
-            "features": [
-              "Internet 30Mbps",
-              "Kuota Keluarga 5GB",
-              "Nelpon sesama 10 Menit"
-            ]
-          }
-        }
-      ]
-    },
-    {
-      "id": "41c1",
-      "total_bayar": 50000,
-      "lists": [
-        {
-          "id": "d99d",
-          "jumlah": 1,
-          "total_harga": 50000,
-          "product": {
-            "id": 1,
-            "kode": "D-03",
-            "nama": "Paket Data Harian 1GB",
-            "harga": 50000,
-            "is_ready": true,
-            "category": {
-              "id": 1,
-              "nama": "Harian"
-            },
-            "features": [
-              "Internet 30Mbps",
-              "Kuota Keluarga 5GB",
-              "Nelpon sesama 10 Menit"
-            ]
-          }
-        }
-      ]
-    },
-    {
-      "id": "4f93",
-      "total_bayar": 50000,
-      "lists": [
-        {
-          "id": "33e5",
-          "jumlah": 1,
-          "total_harga": 50000,
-          "product": {
-            "id": 1,
-            "kode": "D-03",
-            "nama": "Paket Data Harian 1GB",
-            "harga": 50000,
-            "is_ready": true,
-            "category": {
-              "id": 1,
-              "nama": "Harian"
-            },
-            "features": [
-              "Internet 30Mbps",
-              "Kuota Keluarga 5GB",
-              "Nelpon sesama 10 Menit"
-            ]
-          }
-        }
-      ]
-    },
-    {
-      "id": "0117",
-      "total_bayar": 50000,
-      "lists": [
-        {
-          "id": "1d8f",
-          "jumlah": 1,
-          "total_harga": 50000,
-          "product": {
-            "id": 1,
-            "kode": "D-03",
-            "nama": "Paket Data Harian 1GB",
-            "harga": 50000,
-            "is_ready": true,
-            "category": {
-              "id": 1,
-              "nama": "Harian"
-            },
-            "features": [
-              "Internet 30Mbps",
-              "Kuota Keluarga 5GB",
-              "Nelpon sesama 10 Menit"
-            ]
-          }
-        }
-      ]
-    },
-    {
-      "id": "0a74",
-      "total_bayar": 190000,
-      "lists": [
-        {
-          "id": "ff27",
-          "jumlah": 1,
-          "total_harga": 70000,
-          "product": {
-            "id": 3,
-            "kode": "D-05",
-            "nama": "Paket Data Mingguan 5GB",
-            "harga": 70000,
-            "is_ready": true,
-            "category": {
-              "id": 3,
-              "nama": "Mingguan"
-            },
-            "features": [
-              "Internet 20Mbps",
-              "Kuota Keluarga 3GB",
-              "Nelpon sesama 20 Menit"
-            ]
-          }
-        },
-        {
-          "id": "03eb",
-          "jumlah": 1,
-          "total_harga": 120000,
-          "product": {
-            "id": 4,
-            "kode": "D-06",
-            "nama": "Paket Data Mingguan 10GB",
-            "harga": 120000,
-            "is_ready": true,
-            "category": {
-              "id": 4,
-              "nama": "Mingguan"
-            },
-            "features": [
-              "Internet 75Mbps",
-              "Kuota Keluarga 20GB",
-              "Nelpon sesama 40 Menit",
-              "SMS sesama operator 70 SMS"
-            ]
-          }
-        }
-      ]
-    }
-  ],
+  "checkouts": [],
   "users": [
     {
-      "id": 1,
+      "id": "1",
       "name": "John Doe",
       "email": "john@example.com",
       "password": "password123"
+    },
+    {
+      "id": "8e8c",
+      "name": "Fitri",
+      "email": "fitri@example.com",
+      "password": "12345678"
     }
   ]
 }
